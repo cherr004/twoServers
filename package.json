@@ -1,0 +1,22 @@
+{
+  "name": "cc",
+  "version": "1.0.0",
+  "description": "Week 3 - Day 1 Assignment",
+  "main": "twoServers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherr004/twoServers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherr004/twoServers/issues"
+  },
+  "homepage": "https://github.com/cherr004/twoServers#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}

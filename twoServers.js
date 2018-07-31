@@ -14,10 +14,11 @@ function handleRequest(request, response) {
 
 // Use the Node HTTP package to create our server.
 // Pass the handleRequest function to empower it with functionality.
-var server = http.createServer(handleRequest);
+var server1 = http.createServer(handleRequest);
+var server2 = http.createServer(handleRequest);
 
 // Start our server so that it can begin listening to client requests.
-server.listen(PORT1, function() {
+server1.listen(PORT1, function() {
 
   // Log (server-side) when our server has started
   console.log("You're purtty!");
@@ -25,7 +26,7 @@ server.listen(PORT1, function() {
 
 
 // Start our server so that it can begin listening to client requests.
-server.listen(PORT2, function() {
+server2.listen(PORT2, function() {
 
   // Log (server-side) when our server has started
   console.log("You're feo!");
